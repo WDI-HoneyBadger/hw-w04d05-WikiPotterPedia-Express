@@ -71,3 +71,6 @@ I highly recommend beginning with "scaffolding" your application and pseudocodin
 4. Complete '/houses/:name', focus on getting data filtered by houseName and passing it to mustache.
 5. Go back to '/students/:id' and add the link to the house name that leads back to /houses/:name.
 
+## Due Date:
+Saturday at midnight!
+
