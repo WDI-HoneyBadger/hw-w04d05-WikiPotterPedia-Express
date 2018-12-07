@@ -94,7 +94,7 @@ var harryPotterData = [
     id: 13,
     first: "Andrew",
     last: "Kirke",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Gryffindor"
   },
   {
@@ -115,14 +115,14 @@ var harryPotterData = [
     id: 16,
     first: "Natalie",
     last: "McDonald",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Gryffindor"
   },
   {
     id: 17,
     first: "Mary",
     last: "Macdonald",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Gryffindor"
   },
   {
@@ -171,7 +171,7 @@ var harryPotterData = [
     id: 24,
     first: "James",
     last: "Potter",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Gryffindor"
   },
   {
@@ -192,8 +192,7 @@ var harryPotterData = [
     id: 27,
     first: "Jack",
     last: "Sloper",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
-    house: "Gryffindor"
+     house: "Gryffindor"
   },
   {
     id: 28,
@@ -304,14 +303,14 @@ var harryPotterData = [
     id: 43,
     first: "Eleanor",
     last: "Branstone",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Hufflepuff"
   },
   {
     id: 44,
     first: "Owen",
     last: "Cauldwell",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Hufflepuff"
   },
   {
@@ -339,7 +338,7 @@ var harryPotterData = [
     id: 48,
     first: "Laura",
     last: "Madley",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Hufflepuff"
   },
   {
@@ -374,21 +373,21 @@ var harryPotterData = [
     id: 53,
     first: "Kevin",
     last: "Whitby",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Hufflepuff"
   },
   {
     id: 54,
     first: "Rose",
     last: "Zeller",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Hufflepuff"
   },
   {
     id: 55,
     first: "Stewart",
     last: "Ackerley",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Ravenclaw"
   },
   {
@@ -409,7 +408,7 @@ var harryPotterData = [
     id: 58,
     first: "Mandy",
     last: "Brocklehurst",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Ravenclaw"
   },
   {
@@ -423,7 +422,7 @@ var harryPotterData = [
     id: 60,
     first: "Eddie",
     last: "Carmichael",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Ravenclaw"
   },
   {
@@ -493,21 +492,21 @@ var harryPotterData = [
     id: 70,
     first: "Orla",
     last: "Quirke",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Ravenclaw"
   },
   {
     id: 71,
     first: "Lisa",
     last: "Turpin",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Ravenclaw"
   },
   {
     id: 72,
     first: "Malcolm",
     last: "Baddock",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Slytherin"
   },
   {
@@ -584,7 +583,7 @@ var harryPotterData = [
     id: 83,
     first: "Abraxas",
     last: "Malfoy",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Slytherin"
   },
   {
@@ -626,7 +625,7 @@ var harryPotterData = [
     id: 89,
     first: "Graham",
     last: "Pritchard",
-    image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
+    // image: "http://images.clipartpanda.com/question-mark-black-and-white-Icon-round-Question_mark.jpg",
     house: "Slytherin"
   },
   {
@@ -695,3 +694,4 @@ var harryPotterData = [
 ];
 
 module.exports = harryPotterData;
+
