@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Houses</title>
 </head>
 <body>
-  <h1>Checkout All Houses</h1>
-  {{#harryPotterDataList}}
-    <img src={{image}} alt="">
-    <a href="/houses/{{id}}">{{house}}</a>
-  {{/harryPotterDataList}}
+    <h1>Houses</h1>
+    {{#housesList}}
+    <a href="/houses/{{house}}"><p>{{house}}</p></a>
+    {{/housesList}}
+
+  
 </body>
-</html>
+</html> 

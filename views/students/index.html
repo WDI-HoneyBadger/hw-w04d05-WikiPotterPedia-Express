@@ -7,13 +7,21 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Checkout All Students</h1>
-  <a href="/">Home</a>
+
+  <div class="container" style="text-align:center;"> 
+  
+  <h1 style="font-family:verdana;text-align:center;">Checkout All Students</h1>
+  <br>
+  <a href="/"> <p style="font-family:verdana;text-align:center;"> Go Home </p></a>
+  <br>
 
   {{#harryPotterDataList}}
     <img src={{image}} alt="">
-    <a href="/students/{{id}}">{{first}}</a>
+    <a href="/students/{{id}}"><p style="font-family:verdana;text-align:center;"> {{first}} </p></a>
+
   {{/harryPotterDataList}}
-  
+
+</div>
+
 </body>
 </html>

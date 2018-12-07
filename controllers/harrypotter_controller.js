@@ -31,13 +31,7 @@ router.get('/:id', function(request, response){
   response.render('./students/show', mustacheData);
 })
 
-router.get('/:name', function(request, response){
-    var harrypotterId = request.params.id;  //get the number from the url and save as variable birdId
-    var mustacheData = {
-        harryPotter: harryPotter.harryPotterData[harrypotterId]  /* use that number as an index in the array in angry_birds.js.  Send the object at that index to mustache*/
-    }
-    response.render('./houses/show', mustacheData);
-  })
+
 
 // export the router
 
