@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: lightgrey;
+}
+
+h1 {
+    color: rosybrown;
+    margin: 50px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.linkTo {
+    width: 250px;
+    height: 100px;
+    background-color: lightyellow;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkTo > p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.housesButton {
+    width: 300px;
+    height: 70px;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 20px;
+    color: darkcyan;
+    
+}
+
+a:hover {
+    text-decoration: none;
+    color: slategrey;
+}
+
+.eachContainer {
+    border: 1px solid darkcyan;
+    width: 30%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: mistyrose;
+    color: darkcyan;
+}
+
+.imageInStudents {
+    border: 4px solid darkcyan;
+}

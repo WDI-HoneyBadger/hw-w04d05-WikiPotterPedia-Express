@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <a href="/"><button type="button" class="btn btn-outline-secondary btn-lg btn-block housesButton">go back to home page</button></a>
+        <a href="/students"><button type="button" class="btn btn-outline-secondary btn-lg btn-block housesButton">go back to all students</button></a>
+        <div class="eachContainer">
+            <h2>{{studentData.first}} {{studentData.last}}</h2>
+            <img src={{studentData.image}} alt=""  height="350" width="300" class="imageInStudents">
+            <br><br>
+            <h3><a href="/houses/{{studentHouse}}">{{studentData.house}}</a></h3>
+        </div>
+    </div>
+</body>
+</html>
