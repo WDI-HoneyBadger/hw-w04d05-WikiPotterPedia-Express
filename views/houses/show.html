@@ -6,10 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+
+<a href="/"> <p style="font-family:verdana;"> << Go Home </p></a>
+<a href="/students"> <p style="font-family:verdana;"> << See all students</p></a>
+
+<body style="background-color: Thistle;background-image:url('http://www.chorleysoriginal.com/communities/9/004/013/408/349//images/4635180473.gif');"> 
+
+
+        <div class ="container" style="font-family:verdana;text-align:center;">
+
+            <h1 style="font-family: cursive;text-align:center;font-size: 50px;"> {{house}} -  Students in this house  </h1>
     {{#housesList}}
     <img src="{{image}}" alt="">
-    <a href="/houses/{{house}}"> <h2>{{first}} {{list}}</h2></a>
+    <a href="/students/{{id}}"> <h2>{{first}} {{list}}</h2></a>
     {{/housesList}}
+    <!-- /students/{{id}} -->
+    </div>
+
 </body>
 </html>

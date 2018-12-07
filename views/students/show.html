@@ -4,23 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Students</title>
 </head>
-<body>
-
+<body style="background-color: Thistle;background-image:url('http://www.chorleysoriginal.com/communities/9/004/013/408/349//images/4635180473.gif');"> 
+    <a href="/"> <p style="font-family:verdana;"> << Go Home </p></a>
+    <a href="/students"><p style="font-family:verdana;"> << See all students</p></a>
   <div class ="container" style="font-family:verdana;text-align:center;">
   
+<h1 style="font-family: cursive;text-align:center;font-size: 50px;"> Student info</h1>
 
-  <a href="/">Go home</a>
-  <a href="/students">See all students</a>
+  
   <br>
   <br> 
   <img src={{harryPotter.image}} alt="">
-  <p>First: {{harryPotter.first}}</p>
-  <p>Last: {{harryPotter.last}}</p>
+  <p style="font-family:Source Sans Pro, Arial, sans-serif;;text-align:center;font-size:30px;color:midnightblue;">First: {{harryPotter.first}}</p>
+  <p style="font-family:Source Sans Pro, Arial, sans-serif;;text-align:center;font-size:30px;color:midnightblue;">Last: {{harryPotter.last}}</p>
   <!-- <p> house: {{harryPotter.house}}</p> -->
    
-  <a href="/houses/{{harryPotter.house}}"> <p>house:{{harryPotter.house}}</p></a>
+ <p style= "display: inline;font-family:Source Sans Pro, Arial, sans-serif;;text-align:center;font-size:30px;color:midnightblue;">House:</p><a href="/houses/{{harryPotter.house}}" style = "font-family:Source Sans Pro, Arial, sans-serif;;text-align:center;font-size:30px;color:midnightblue;"> {{harryPotter.house}}</a>
 
   <!-- <p>abilities: {{harryPotterData.abilities}}</p> -->
   

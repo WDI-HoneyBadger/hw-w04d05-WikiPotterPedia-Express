@@ -18,7 +18,7 @@ router.get('/students', function(request, response){
     // set up mustache data:
     var mustacheData = {
       harryPotterDataList: harryPotter.harryPotterData
-    };3
+    };
   
     response.render('./students/show', mustacheData);  // khala al show students button goes to the other page 
   })
