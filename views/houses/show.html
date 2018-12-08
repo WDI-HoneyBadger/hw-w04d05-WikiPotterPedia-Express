@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Students of House</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <button><a href="/">Home Page</a></button>
+    <button><a href="/houses">Back To Houses Page</a></button>
+    {{#studentList}}
+        <div>       
+            <img src={{image}} alt={{first}}>
+            <h2><a href="/students/{{id}}">{{first}} {{last}}</a></h2>
+        </div>
+    {{/studentList}}
+</body>
+</html>
