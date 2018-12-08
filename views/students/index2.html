@@ -1,0 +1,22 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1> <a href="/">back to HomePage</a> </h1>
+
+    <h1> <a href="/students">back to students</a> </h1>
+    {{#StudentList}}
+        <img src={{image}}>
+ <p>{{id}}</p>
+    <a href="/students/{{id}}">{{first}}{{last}}</a>
+    <p>{{house}}</p>
+    
+    
+    <p>{{/StudentList}}</p>
+</body>
+</html> 
