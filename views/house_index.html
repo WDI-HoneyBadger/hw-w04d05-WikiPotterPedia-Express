@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="/">Home</a>
+    <h1>Houses:</h1>
+    <h4>Clicking on a particular house shows the students currently in that house.</h4>
+    <ul>
+        {{#houses}}
+        <li> <a href="/houses/{{name}}">{{name}}</a> </li>
+        {{/houses}}
+    </ul>
+</body>
+
+</html>
