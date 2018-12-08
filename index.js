@@ -23,8 +23,6 @@ app.use('/houses', housesController);
 // set up additional routes:
 app.use('/students', harryPotterController);
 
-
-
 // set up our app to listen to a port
 app.listen(port, function() {
   console.log(`App is listening on port ${port}`);
