@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        background-position: center; 
+        background-image: url("https://c1.staticflickr.com/7/6133/5939143164_7a24e47460_b.jpg");
+    }
+    a{
+        color: aliceblue;
+        font-size: 50px;
+    }
+    </style>
+</head>
+<body>
+    <br>
+<a href="/">go home</a>
+<a href="/houses">see all houses</a>
+<!-- <a href="/harryPotterDatas">see all houses</a> -->
+<br>
+
+    {{#housesList}}
+    <img src="{{image}}" alt="">
+    <a href="/students/{{id}}"></a><h2>{{first}} {{list}}</h2>
+    {{/housesList}}
+
+    
+</body>
+</html>

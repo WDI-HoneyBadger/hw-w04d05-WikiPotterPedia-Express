@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+            body {
+                background-image: url("http://thecutestblogontheblock.com/wp-content/uploads/2011/11/harry-potter-battle-copy-1000x500.jpg");
+                 
+        }
+        h1, a{
+            
+    text-shadow: 0 0 3px , 0 0 5px skyblue;
+    color: azure;
+
+        }
+        .main{
+            position: relative;
+            left:390px;
+        }
+        a{
+            color: azure;
+        }
+
+           
+            </style>
+</head>
+<body>
+    <div class="main">
+    <h1>All Students</h1>
+    <a href="/">go home</a>
+    <!-- {{#harryPotterDataList}} -->
+    <br>
+    
+   
+    <a href="students/{{id}}"><p>{{first}}</p></a>
+    <img src= "{{image}}">
+    <!-- {{/harryPotterDataList}} -->
+    </div>
+</body>
+</html>
