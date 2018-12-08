@@ -22,7 +22,9 @@ router.get("/:name", function (req, res) {
     var filteredStudents = students.filter(function(element){
         if (element.house == houseName) return element;
     })
+    var houseDisplay = houseName.charAt(0).toUpperCase() + houseName.slice(1)
     var mustacheData = {
+        houseDisplay: houseDisplay,
         filtered: filteredStudents
     }
     res.render("./house_show.html", mustacheData);
