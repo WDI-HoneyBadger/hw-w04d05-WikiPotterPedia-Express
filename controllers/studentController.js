@@ -16,7 +16,7 @@ router.get('/:id', function(request, response){
         sList: harryPotterData[sId]
     }
 
-    response.render('./students/sID', sData);
+    response.render('./students/sID ', sData);
 });
 
 

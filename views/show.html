@@ -7,10 +7,21 @@
   <title>Document</title>
 </head>
 <body>
+    <style>
+        body {
+         text-align: center;
+         background-color: black;
+         margin-top:10%;
+         color: darkcyan;
+         font-family: "Rock Salt";
+         font-size: 40px;
+       
+ } 
+      </style>
   <a href="/">go home</a>
-  <a href="/data/data.js">see all Student</a>
+  <a href="/data/data">see all Student</a>
   <img src={{sData.image}} alt="">
-  <p>: id{{sData.id}}</p>
+  <p>id: {{sData.id}}</p>
   <p>first: {{sData.first}}</p>
   <p>last: {{sData.last}}</p>
   <p>house: {{sData.house}}</p>

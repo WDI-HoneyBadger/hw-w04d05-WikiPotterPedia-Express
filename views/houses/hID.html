@@ -3,13 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
+        <style>
+                body {
+                 text-align: center;
+                 background-color: black;
+                 margin-top:10%;
+                 color: darkcyan;
+                 font-family: "Rock Salt";
+                 font-size: 40px;
+               
+         } 
+              </style>
+     <a href="/"> Home</a>
+     <br>
     {{#hList}}
     <img src="{{image}}" alt="">
-    <a href="/students/{{id}}">{{first}} {{last}}</a>
+    <a href="../students/student{{id}}">{{first}} {{last}}</a>
     
     {{/hList}}
 </body>
