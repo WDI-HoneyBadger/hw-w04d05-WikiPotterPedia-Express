@@ -1,0 +1,44 @@
+body{
+text-align: center;
+background-image: url(https://wallpaperplay.com/walls/full/4/7/4/17343.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-color: darkgray;
+background-size: 100% vh;
+background-repeat: repeat-y;
+}
+
+img{
+ border: 1px;
+ size: 200px;
+ border: cadetblue solid;
+
+}
+
+a{
+
+color:beige;
+}
+
+a :hover{
+
+    color: moccasin;
+}
+h1{
+
+    color: beige;
+    
+}
+
+h3{
+    text-decoration-line: underline;
+color: beige;
+    font-family: -apple-system,
+     BlinkMacSystemFont,
+      'Segoe UI',
+       Roboto, Oxygen, 
+       Ubuntu, Cantarell, 
+       'Open Sans', 
+       'Helvetica Neue'
+       , sans-serif;
+}
