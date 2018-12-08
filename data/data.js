@@ -669,7 +669,7 @@ var harryPotterData = [
     first: "Godric",
     last: "Gryffindor",
     image: "http://img1.wikia.nocookie.net/__cb20140615154246/harrypotter/images/3/38/PR_007_003-e1313269822422.jpg",
-    house: "Gruffindor"
+    house: "Gryffindor"
   },
   {
     id: 96,
@@ -694,4 +694,4 @@ var harryPotterData = [
   }
 ];
 
-module.exports = harryPotterData;
+module.exports =  harryPotterData;

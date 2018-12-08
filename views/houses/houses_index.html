@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Houses List</title>
+</head>
+
+<body>
+    <h2><a href="/">Home</a></h2>
+<h1>The Big Houses</h1>
+
+    {{#houseList}}
+    <h3><a href="/houses/{{name}}">{{name}}</a></h3>
+    {{/houseList}}
+</body>
+</html>

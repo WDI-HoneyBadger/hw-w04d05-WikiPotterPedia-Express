@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Details</title>
+</head>
+<style>
+        img {
+            height: 300px;
+            width: 300px;
+        }
+        </style>
+<body>
+    <h1>The Student Details</h1>
+    <img src="{{studentList.image}}" alt="">
+    <h2>Name: {{studentList.first}} {{studentList.last}}</h2>
+    <h2>House: {{studentList.house}}</h2>
+
+    <h4><a href="/">Home</a></h4>
+    <h4><a href="/students">View All Student</a></h4>
+    <h4><a href="/houses/{{studentList.house}}">View The House</a></h4>
+</body>
+</html>

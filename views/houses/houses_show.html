@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The house's Students</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+img {
+    height: 300px;
+    width: 300px;
+}
+div {
+    margin: 5px;
+    border: 5px solid black;
+}
+</style>
+<body>
+    <h2>{{houseName}} Students</h2>
+    {{#studentList}}
+    <div>
+    <img src="{{image}}" alt="">
+    <h4><a href="/students/{{id}}">{{first}} {{last}}</a></h4>
+    </div>
+    {{/studentList}}
+
+   
+    <h4><a href="/houses">View All Houses</a></h4>
+    <h4><a href="/">Home</a></h4>
+</body>
+</html>
