@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Houses</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 style="color: palevioletred">Houses</h1>
+    <br>
+    <h3><a href="/" style="color: palevioletred;text-decoration: none;"> Go to home </a></h3>
+  
+<div>
+{{#housesList}}
+
+<h2><a href="/houses/{{house}}" style="color:black; text-decoration: none;"> {{house}}</a></h2>
+<br>
+{{/housesList}}
+</div>
+</body>
+</html>
+<style>
+        body{
+        
+            background-image:url('https://hpmedia.bloomsbury.com/rep/g/page-background%20-%20product.png');
+            background-size: cover;
+            text-align: center
+        }
+            
+        link{
+            text-decoration: none;
+        }
+        
+        
+        
+        </style>
