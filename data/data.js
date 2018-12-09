@@ -3,7 +3,7 @@ var harryPotterData = [
     id: 0,
     first: "Euan",
     last: "Abercrombie",
-    image: "https://pbs.twimg.com/profile_images/661929693403324416/0Dq3fXno_400x400.jpg",
+    image: "https://vignette.wikia.nocookie.net/harrypotter/images/4/45/Euan.jpg/revision/latest?cb=20120423032609",
     house: "Gryffindor"
   },
   {

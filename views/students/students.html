@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body{
+            color:white;
+            text-align: center;
+            background-color: black;
+            }
+            p{
+                background-color: white;
+                color:black;
+            }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Students Page</h1>
+        <p><a href='/'>Go back to home page</a></p>
+        {{#harryPotterList}}
+        <p><a href='/students/{{id}}'>{{first}} {{last}}</a></p>
+        <p><img src='{{image}}'></p>
+        {{/harryPotterList}}
+        
+    </div>
+</body>
+</html>
