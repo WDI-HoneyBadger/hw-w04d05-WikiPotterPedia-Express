@@ -10,20 +10,23 @@ router.get('/', function(req, res){
 
 
 router.get('/:houses', function(req, res){
-   var houseName = req.params.house;
+   var houseName = req.params.houses;
+   console.log(houseName)
    var houseStudents = harryPotterData.filter(function(h){
-       if (h.house == houseName){
-           return h;
-       };
+    if  (h.house.toLowerCase == houseName.toLowerCase){
+            return h
+    }
+
+       })
        var musttachvariables = {
            students: houseStudents
-       }
+           }
        
        console.log(houseStudents)
-    //    res.render('./houses/show', musttachvariables);
+        res.render('./houses/show', musttachvariables);
 
    })
 
 
-})
+
 module.exports = router;
