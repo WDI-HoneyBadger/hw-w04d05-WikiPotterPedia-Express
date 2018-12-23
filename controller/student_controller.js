@@ -10,7 +10,7 @@ router.get('/', function(request, response){
     studentList: harrypotter
   };
 
-  response.render('./students/student', mustacheData);
+  response.render('./students/index', mustacheData);
 })
 
 
@@ -20,7 +20,7 @@ router.get('/:id', function(request, response){
   var mustacheData = {
     student: harrypotter[studentId] 
   }
-  response.render('./students/showstudent', mustacheData);
+  response.render('./students/show', mustacheData);
 })
 
 

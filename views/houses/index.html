@@ -7,10 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>house show</h1>
-    <img src={{house.image}} alt="" >
-    <div><a href="/houses/{{house.house}}">{{house.house}}</a></div>
-    <div> <a href="../students/{{student.id}}">{{house.first}}{{house.last}}</a></div>
+    <h1>house</h1>
+    <a href="/">back home </a>
+    {{#harryPotte}}
+    <div><a href="/houses/{{.}}">{{.}}</a></div>
+
+    {{/harryPotte}}
 
 </body>
 </html>

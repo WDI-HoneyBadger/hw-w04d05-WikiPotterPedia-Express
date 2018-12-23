@@ -7,13 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>student show id</h1>
-    {{#student}}
+    <h1>student</h1>
+    <a href="/">back home </a>
+    {{#studentList}}
     <div class="profile">
-    <img src={{student.image}} alt >
-    <div> <a href="/students/{{student.id}}">{{student.first}}{{student.last}}</a></div>
-<div><a href="/houses/{{id}}">{{student.house}}</a></div>
+    <img src={{image}} alt >
+    <div> <a href="/students/{{id}}">{{first}}{{last}}</a></div>
+<div><a href="/houses/{{id}}">{{house}}</a></div>
 </div>
-    {{/student}}
+    {{/studentList}}
 </body>
 </html>

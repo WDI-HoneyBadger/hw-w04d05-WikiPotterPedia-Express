@@ -14,24 +14,33 @@ var hosesss = harrypotter.map(function (item) {
 var houseLists = hosesss.filter(function(item, index){
 	return hosesss.indexOf(item) >= index;
 });
-console.log(houseLists)
 var mustacheDat = {
-  harryPotte: harrypotter
-
+  harryPotte: houseLists
 }
-  response.render('./houses/house', mustacheDat);
+console.log(mustacheDat)
+
+  response.render('./houses/index', mustacheDat);
 })
 
 
+router.get('/:house', function(request, response){
+  var houses = request.params.house; 
+    var harrypotterh = harrypotter.filter(function (item) {
+      if(item.house === houses ){
+      return item
 
-router.get('/:name', function(request, response){
-  var houseId = request.params.name;  
-
+      }
+    })
+  console.log(harrypotterh)
   var mustacheData = {
-    house: harrypotter
+    housee: harrypotterh
   }
-  response.render('./houses/houseshow', mustacheData);
+  console.log(mustacheData)
+  response.render('./houses/show', mustacheData);
 })
+
+
+
 
 
 
